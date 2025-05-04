@@ -18,27 +18,25 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] A live search bar was added to filter games by name as the user types.
+* [x] Custom hover effects added to game cards to improve the visual design.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Walkthrough](assets/walkthrough.gif)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with https://ezgif.com/
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
+One challenge encountered while building the app was getting the correct string formatting with template literals and making sure the summary message used the correct grammar depending on the number of unfunded games. I also had to debug some DOM issues when the elements weren’t updating correctly.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Nour Elshabasy
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
